@@ -89,3 +89,4 @@ for model in models.keys():
 
     for mode,name in models.items():
         print(name + ":{:.4f}%".format(model.score(X_test, y_test)*100))
+
